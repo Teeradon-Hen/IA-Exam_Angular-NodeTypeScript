@@ -1,0 +1,11 @@
+<div class='Area'>
+     <label>Base : </label>
+     <input [(ngModel)]="base" placeholder="Base" type="number" >
+     <br />
+     <label>Height : </label>
+     <input [(ngModel)]="height" placeholder="Height" type="number">
+     <br />
+     <button (click)="compute()">Compute</button>
+     <h3 >Area : {{area}}</h3>
+     <!-- ngIf="area" -->
+</div>

@@ -1,0 +1,8 @@
+<div class='numberFormat'>
+     <label>Number</label>
+     <input [(ngModel)]="number" type="number" />
+     <button (click)="show()">Show</button>
+     <div *ngFor="let ele of text">
+          <h3>{{ele}}</h3>
+     </div>
+</div>

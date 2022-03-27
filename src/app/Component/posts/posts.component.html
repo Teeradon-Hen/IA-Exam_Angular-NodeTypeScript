@@ -1,0 +1,19 @@
+<h3>Fetch API</h3>
+<table class="table">
+     <thead>
+          <tr>
+               <th scope="col">Id</th>
+               <th scope="col">UserId</th>
+               <th scope="col">Title</th>
+               <th scope="col">Body</th>
+          </tr>
+     </thead>
+     <tbody>
+          <tr *ngFor="let ele of data;">
+               <td>{{ ele.id }}</td>
+               <td>{{ ele.userId }}</td>
+               <td>{{ ele.title }}</td>
+               <td>{{ ele.body }}</td>
+          </tr>
+     </tbody>
+</table>

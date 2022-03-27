@@ -1,0 +1,12 @@
+.Area{
+  padding: 30px 100px;
+  background-color: rgb(198, 219, 138);
+  margin:  80px 100px;
+}
+input{
+  padding: 5px;
+  margin: 20px;
+}
+button{
+  padding: 5px;
+}

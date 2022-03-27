@@ -1,0 +1,9 @@
+<div class="Hero">
+  <h2>My Heroes</h2>
+  <ul>
+    <li *ngFor="let hero of heroes">
+      <span (click)="onSelect(hero.name)">{{hero.id}} {{hero.name}}</span>
+    </li>
+  </ul>
+  <p *ngIf="myHero">My hero is <b><u>{{myHero }}</u></b> </p>
+</div>

@@ -13,7 +13,7 @@ app.use((req: Request, res: Response, next: NextFunction) => {
 
 app.post('/area', (req: Request, res: Response) => {
      let area: number = req.body.base * req.body.height / 2
-     if (area < 0) {
+     if (req.body.base < 0 || req.body.height < 0) {
           let area: string = "Invalid Input"
           res.send({ area })
      }
